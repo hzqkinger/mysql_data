@@ -1,0 +1,7 @@
+CentOS下Mysql,无法找到mysql.h头文件（致命错误：mysql/mysql.h：没有那个文件或目录）
+  1,  yum search mysql   //查找mysql的依赖
+  2,  sudo yum install mysql-community-devel.x86_64   //这个库的功能就是为了提供头文件的功能
+
+安装完毕后,头文件在/usr/include
+##############################################
+
